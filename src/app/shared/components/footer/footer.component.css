@@ -1,0 +1,96 @@
+footer{
+    width: 100%;
+    background-color: var(--colorDark);
+    background-image: linear-gradient(to left, rgba(0,0,0,.9), rgba(0,0,0,.6)), url("/assets/footer.jpg");
+    background-size: cover;
+
+}
+
+.footer{
+    display: flex;
+    padding: 2rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footerNetworks, .footerContact, .areasFooter{
+    width: 28%;
+}
+
+.logoFooter{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.textFooter{
+    font-size: 1rem;
+    font-family: var(--fontSecondary);
+    color: var(--colorLight);
+    text-align: justify;
+}
+
+.titleFooter{
+    color: var(--colorLight);
+    font-family: var(--fontPrimary);
+    margin-bottom: 1.5rem;
+}
+
+.networks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkFooter i{
+    color: var(--colorLight);
+    font-size: 1.5rem;
+}
+
+.textContact{
+    color: var(--colorLight);
+    font-family: var(--fontSecondary);
+}
+
+.textContact i{
+    margin-right: 1rem;
+}
+
+.areasListFooter{
+    padding-left:0 ;
+    color: var(--colorLight);
+    font-family: var(--fontSecondary);
+}
+.listFooter{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.listFooter:hover{
+    color: var(--colorPrimary);
+    
+}
+
+.copyright{
+    text-align: center;
+    color: var(--colorLight);
+    font-family: var(--fontPrimary);
+    padding: 8px 0;
+    background-color: var(--colorDark);
+}
+
+@media all and (max-width:992px){
+    .footerNetworks, .footerContact, .areasFooter{
+        width: 28%;
+    }
+}
+
+@media all and (max-width:768px){
+    .footerNetworks, .footerContact, .areasFooter{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}

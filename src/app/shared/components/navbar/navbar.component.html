@@ -1,0 +1,47 @@
+<div class="navigationBar">
+    <nav class="navigation container">
+        <a href="" class="navigation__logo navbar-brand">
+            <img routerLink="" src="assets/logoICEITECH.png" class="navigation__image" alt="IceiTech">
+        </a>
+        <div class="menuHamburguer" (click)="animatedMenu()">
+            <div class="hamburguer"></div>
+        </div>
+        <ul class="navigation__links">
+            <li class="navigation__link">
+                <label for="cursos" class="show">Cursos <i class="bi bi-chevron-down"></i></label>
+                <a class="">Cursos <i class="bi bi-chevron-down"></i></a>
+                <input type="checkbox" id="cursos">
+                <ul class="navigation__links--nivel2">
+                  <li class="navigation__link">Programación y Desarrollo</li>
+                  <hr class="dropdown-divider">
+                  <li class="navigation__link">Infraestructura Tecnológica</li>
+                  <hr class="dropdown-divider">
+                  <li class="navigation__link">Administración de Base de datos</li>
+                  
+                </ul>
+            </li>
+            <li class="navigation__link">
+                <label for="comunidad" class="show">Comunidad <i class="bi bi-chevron-down"></i></label>
+                <a class="">Comunidad<i class="bi bi-chevron-down"></i></a>
+                <input type="checkbox" id="comunidad">
+                <ul class="navigation__links--nivel2">
+                  <li class="navigation__link">Videos</li>
+                  <hr class="dropdown-divider">
+                  <li class="navigation__link">Blogs</li>
+                </ul>
+            </li>
+            <li class="navigation__link">
+                Servicios
+            </li>
+            <li class="navigation__link">
+                Nosotros
+            </li>
+            <li class="navigation__link">
+                Contactos
+            </li>
+            <li class="navigation__link">
+                Login
+            </li>
+        </ul>
+    </nav>
+</div>
